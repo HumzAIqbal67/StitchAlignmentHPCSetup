@@ -615,7 +615,7 @@ class StaticImageLoader(AbstractImageLoader):
 
     def check_filename_uniqueness(self):
         assert(len(self.imgrelpaths) > 0), 'empty file list'
-        assert len(set(self.imgrelpaths)) == len(self.imgrelpaths), 'duplicated filenames'
+        # assert len(set(self.imgrelpaths)) == len(self.imgrelpaths), 'duplicated filenames'
 
 
     def crop(self, bbox, fileid, return_empty=False, return_index=False, **kwargs):

@@ -1,0 +1,5 @@
+{ROOT_DIR}	small_align/extracted
+{RESOLUTION}	4.0
+{TILE_SIZE}	13428	10586
+section_set_11_section_013.tif	0	0
+section_set_11_section_013.tif	0	0
